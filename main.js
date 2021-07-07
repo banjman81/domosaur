@@ -26,6 +26,11 @@ function redBorder(){
 const borderRed= document.querySelector('#triceratops');
 borderRed.addEventListener('click', redBorder)
 
+const fiftyOp= document.querySelector('#feathers');
+fiftyOp.addEventListener('click', function (){
+    fiftyOp.style.opacity = '0.5'
+})
+
 const changeBg = document.querySelector('#toggle');
 changeBg.addEventListener('click', function (){
     const rowBg = document.querySelector('#row');
